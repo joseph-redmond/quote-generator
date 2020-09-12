@@ -1,0 +1,73 @@
+body{
+    background-image: url('/assets/circuit.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#quote-view{
+    width: 80vw;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px black;
+}
+
+#quote-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
+#origin{
+    text-align: center;
+    margin-top: -2vh;
+    font-size: 35px;
+    font-style: italic;
+}
+h3{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#twitter{
+    background-color: black;
+    width: 75px;
+    border-radius: 15%;
+    box-shadow: 10px 10px 50px black;
+}
+#quote-div{
+    display: flex;
+
+}
+#quote-div img{
+    display: block;
+    width: 120px;
+    height: 100px;
+    margin-right: 3vw;
+}
+#new-quote{
+    width: 200px;
+    height: 5vh;
+    border-radius: 25%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    box-shadow: 10px 10px 50px black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
